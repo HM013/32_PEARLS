@@ -1,0 +1,222 @@
+.top-bar{
+background-color: #154360 ;
+max-width: 100%;
+}
+
+.top-bar ul{
+color: white;
+list-style-type: none;
+}
+
+.top-bar ul li{
+float: left;
+padding: 14px 5px 14px 5px;
+display: block;
+}
+
+.top-bar li i{
+font-size: 23px;
+
+}
+
+.socialicon  ul {
+float: right;
+font-size: 20px;
+padding: 10px 30px 0 30px;
+
+}
+
+.socialicon ul i {
+padding-right: 30px;
+color: #FFF;
+font-size: 20px;
+}
+
+.socialicon ul i:hover {
+color: black;
+}
+
+.nav-bar{
+background-color: #ffffcc;
+height: auto;
+}
+
+.nav-bar .logo{
+width: 400px;
+padding: 10px 10px;
+height: 100px; 
+}
+
+.nav-bar ul{
+list-style-type: none;
+}
+
+.nav-bar ul li {
+float: left;
+margin-left: 20px;
+font-weight: bold;
+padding: 40px 30px 10px 0;
+}
+
+.nav-bar ul li a{
+color: blue;
+text-decoration: none;
+padding-bottom: 10px;
+}
+
+.nav-bar ul li a:hover{
+color: #154360;
+border-bottom: 4px solid #154360;
+}
+
+.nav-bar label{
+float: right;
+font-size: 40px;
+color: #154360;
+display: none;
+}
+
+#toggle{
+display: none;
+}
+
+@media only screen and (max-width: 700px){
+          .nav-bar label {
+          
+          display: none ;
+          cursor: pointer;
+          float: right;
+        }
+
+         .nav-bar ul li{
+         text-align: center;
+         width: 100%;
+         display: ;
+         }
+
+         .navbar ul li a{
+          display: block;
+          background-color: #ffffcc;
+
+          }
+}
+
+
+
+.banner img{
+width: 100%;
+}
+
+.request-form {
+background-color: #154360;
+height: auto;
+}
+
+.request-form p{
+color: white;
+font-weight: bold;
+text-align: center;
+padding: 44px;
+font-size: 36px;
+}
+
+.form-req{
+margin: 0 0 50px; 0;
+}
+
+.form-style{
+color: white;
+font-size: 18px;
+}
+
+.space-style{ 
+width: 300px;
+height: 50px;
+font-size: 18px;
+
+}
+
+.btn-size{
+margin-top: 30px;
+
+background-color: white;
+border: 3px solid lightblue;
+width: 300px;
+height: 50px;
+font-size: 18px;
+color: #000066;
+}
+
+.btn-size:hover{
+border: none;
+background-color: #000066;
+color: white;
+font-size: 18px;
+}
+
+.new-side{
+background-color: white;
+}
+
+.service{
+text-align: center;
+padding: 40px;
+}
+
+.service-line{
+font-size: 44px;
+color: #154360;;
+font-weight: 800;
+}
+
+.service-line-now{
+text-align: center;
+font-size: 44px;
+font-weight: 800;
+margin-left: 12px;
+}
+
+.image-side{
+margin-bottom: 35px;
+}
+
+.photo-det{
+width: 350px;
+text-align: center;
+font-size: 14px;
+padding: 20px 40px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+font-weight: bold;
+}
+
+.photo-det:hover{
+box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);
+}
+
+.team{
+background-color: #154360;
+height: auto;
+}
+
+.team-style{
+color: white;
+text-align: center;
+font-size: 44px;
+padding: 40px;
+}
+
+.container .staff{
+margin: 0px 0 220px 90px;
+}
+
+.team-grad{
+color: white;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.footer{
+background-color: #d6d2d2;
+height: auto;
+}

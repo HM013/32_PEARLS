@@ -1,0 +1,55 @@
+.aboutimage img{
+width: 100%;
+height: 400px;
+}
+
+.callbacks{
+background-color: #ccccff;
+height: auto;
+padding: 100px 50px 10px 90px;
+text-align: justify;
+font-size: 19px;
+font-style:
+color: midnightblue;
+font-family: cursive;
+}
+
+.contact-mid{
+padding: 60px 0 60px 0;
+}
+
+.cont-oth{
+border: 2px solid black;
+background-image: url(../images/phone.jpg);
+height: 600px;
+color: white;
+}
+
+.name{
+font-size: 25px;
+}
+
+.sub-mit input{
+margin: 10px 0 0 0 ;
+width: 100px;
+height: 40px;
+border-radius: 8px;
+border: none;
+background-color: Darkblue;
+color: white;
+text-transform: uppercase;
+}
+
+.sub-mit input:hover{
+background-color: black;
+}
+
+.contact-grind i{
+font-size: 25px;
+color: green;
+margin-top: 30px;
+}
+
+.container .staff{
+margin: 0px 0 220px 90px;
+}
